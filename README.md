@@ -1,4 +1,4 @@
-# 🗿 Entrega del primer hack de Python
+# 🗿 Entrega del segundo hack de Python
 
 | **Nombre**  | **Ubicación** |
 | ------------- | ------------- |
