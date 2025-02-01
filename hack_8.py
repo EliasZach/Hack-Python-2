@@ -9,6 +9,12 @@ text: ["a","b"] output => ["2","1"]
 
 
 def fn_hack_8(s):
-    result = s
-    #...
+    result = []
+
+    for i in range(len(s) - 1, -1, -1):
+        if len(s) > 4 or len(s) == 3:
+            result.append(f"{s[i]}-{i + 1}")
+        else:
+            result.append(str(i+1))
+    
     return result
